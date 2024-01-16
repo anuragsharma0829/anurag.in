@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="index.css">
+  <title>Your Page Title</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav class="navbar p-4 flex items-center justify-between">
+    <div class="flex items-center">
+      <div class="mr-4">
+        <a href="#" class="text-xl font-bold text-white">Logo</a>
+      </div>
+      <div class="hidden md:block">
+        <a href="#" class="text-white">Home</a>
+        <a href="#" class="ml-4 text-white">About</a>
+        <a href="#" class="ml-4 text-white">Services</a>
+        <a href="#" class="ml-4 text-white">Contact</a>
+      </div>
+    </div>
+    <div class="hidden md:block">
+      <a href="#" class="text-white">Login</a>
+      <a href="#" class="ml-4 text-white bg-blue-500 hover:bg-blue-700 px-4 py-2 rounded transition duration-300">Sign Up</a>
+    </div>
+    <div class="md:hidden">
+      <button class="text-white focus:outline-none">
+        <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
+        </svg>
+      </button>
+    </div>
+  </nav>
+
+<div class="item-center  flex">
+    <div class="max-w-sm rounded overflow-hidden shadow-lg mt-3">
+        <img class="w-full" src="https://mdbootstrap.com/img/new/ecommerce/vertical/004.jpg" class="w-100 rounded-4 shadow-4"
+        alt="Sunset in the mountains">
+        <div class="px-6 py-4">
+          <div class="font-bold text-xl mb-2">The Coldest Sunset</div>
+          <p class="text-gray-700 text-base">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus quia, nulla! Maiores et perferendis eaque, exercitationem praesentium nihil.
+          </p>
+        </div>
+        <div class="px-6 pt-4 pb-2">
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#photography</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#travel</span>
+          <span class="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">#winter</span>
+        </div>
+      </div>
+</div>
+
+
+</body>
+</html>

@@ -21,3 +21,7 @@
   .navbar a:hover {
     text-decoration: underline;
   }
+  .logo1{
+    filter: invert (100%)
+  }
+  

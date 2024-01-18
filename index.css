@@ -25,3 +25,35 @@
     filter: invert (100%)
   }
   
+  @media (max-width: 767px) {
+    .navbar {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .navbar a {
+      margin: 8px 0;
+      display: block;
+      text-align: center; /* Center text on small screens */
+      width: 100%; /* Make links full-width */
+      transition: transform 0.3s ease-in-out; /* Add smooth transition for menu items */
+    }
+
+    .md\\:hidden {
+      order: -1;
+      margin-left: auto;
+      margin-right: 10px; /* Add right margin for spacing */
+    }
+
+    .hidden.md\\:block {
+      display: none;
+    }
+
+    .show-menu .hidden.md\\:block {
+      display: block; /* Show menu items when the menu is open */
+    }
+
+    .show-menu a {
+      transform: translateY(0); /* Slide down menu items when the menu is open */
+    }
+  }
